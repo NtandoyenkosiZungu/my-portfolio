@@ -22,7 +22,7 @@ export default function SideBar ({active, onNavigate} : Props){
         <aside
             className="w-56 h-screen flex flex-col border-r border-black/5 bg-[#ededf1] shrink-0"
         >
-            <div className="w-full h-20 border-b-2 border-b-black text-left text-4xl font-bold p-x-3">
+            <div className="w-full h-16 border-b-2 border-b-black text-center text-4xl font-bold p-x-3">
                 NNZ
             </div>
             <div className=" text-xl px-5 py-6 border-b border-white/5">
@@ -45,6 +45,10 @@ export default function SideBar ({active, onNavigate} : Props){
                     )
                 }
             </nav>
+
+            <footer  className=" h-16 px-5 py-4 border-t border-black">
+                <p className="text-[11px] font-mono text-black">Durban, ZA</p>
+            </footer>
         </aside>
     )
 }
